@@ -1,25 +1,15 @@
 #puts "What is your number?"
 #int = gets
-
-def fizzbuzz(int)
-  
-    if int % 3 == 0 && int % 5 == 0
-   puts "Fizzbuzz"
-  elsif int % 3 == 0 
-     puts "Fizz"
-    # else 
-    # puts "Sorry try again"
-  elsif int % 5 == 0
-   puts "Buzz"
+def fizzbuzz(number)
+  if number % 3 == 0 && number % 5 == 0 
+    return "FizzBuzz"
+ elsif number % 5 == 0 
+    return "Buzz"
+   elsif number % 3 == 0 
+    return "Fizz"
   else
-   puts "Sorry try again"
+    return nil
+  end
 end
 
-end
-
-fizzbuzz(123)
-
-  
-  # if int % 3,5 == 0
-  
   
