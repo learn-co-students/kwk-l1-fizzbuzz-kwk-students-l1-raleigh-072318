@@ -1,5 +1,5 @@
-#puts "What is your number?"
-#int = gets
+puts "What is your number?"
+int = gets 
 
 def fizzbuzz(int)
   
@@ -14,12 +14,3 @@ def fizzbuzz(int)
   else
    puts "Sorry try again"
 end
-
-end
-
-fizzbuzz(123)
-
-  
-  # if int % 3,5 == 0
-  
-  
