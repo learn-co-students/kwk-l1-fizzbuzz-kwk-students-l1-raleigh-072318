@@ -5,7 +5,7 @@
 3. Gain more familiarity with the concept of test driven development
 
 # A Note on This Guide
-
+6 % 2
 We've been introduced to the concepts of test driven development and reading and understanding RSpec tests before.
 
 Every time you run `learn` to run a lab's tests, you are running an RSpec test suite - that's how we build labs on Learn.
